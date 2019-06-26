@@ -1,0 +1,28 @@
+.main-img {
+	background: url("images/main-img.jpg") center/cover no-repeat content-box;
+
+	background-attachment: fixed; ;
+	/*background-size: cover;
+	background-position: center  ;
+	background-repeat:repeat;
+	background-origin: content-box;*/
+	height: 100%;
+	width: 100%;
+}
+
+.main_img-scroll-link {
+	position: absolute;
+	bottom: 70px;
+	left: 51%;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	z-index: 9;
+	border: 1px solid rgba(255,255,255,0.21);
+}
+
+/*@media (max-width: 640px) {
+	.main-img {
+		background-attachment: scroll;
+	}
+}*/
