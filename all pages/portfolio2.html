@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monolit-Responsive architecture template</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="shared2.css">
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+
+</head>
+<body>
+	<div class="loader">
+        <div id="movingBallG">
+            <div class="movingBallLineG"></div>
+            <div id="movingBallG_1" class="movingBallG"></div>
+        </div>
+    </div>
+	<header class="header">
+        <div class="logo-holder">
+            <a href="index1.html"> <img src="images/logo.png" alt="Monolit"> </a>
+        </div>
+        <div class="toggleNshare-holder">
+            <div class="toggle-button-holder">
+                <button type="button" class="toggle-button">
+                    <span class="toggle-button-bar"></span>
+                    <span class="toggle-button-bar"></span>
+                    <span class="toggle-button-bar"></span>
+                </button>
+            </div>
+            <div class="nav-holder">
+                <ul class="nav-holder-list">
+                    <li class="menu1">
+                        <a href="index1.html">Home</a>
+                        <ul class="submenu1">
+                            <li><a href="index1.html">Image</a></li>
+                            <li><a href="index1.html">Slider</a></li>
+                            <li><a href="index1.html">Slideshow</a></li>
+                            <li><a href="index1.html">Youtube video</a></li>
+                            <li><a href="index1.html">Vimeo video</a></li>
+                            <li class="menu2">
+                                <a href="#">One page</a>
+                                <ul class="submenu2">
+                                    <li><a href="index1.html">Image</a></li>
+                                    <li><a href="index1.html">Slider</a></li>
+                                    <li><a href="index1.html">Slideshow</a></li>
+                                    <li><a href="index1.html">Youtube video</a></li>
+                                    <li><a href="index1.html">Vimeo video</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu1">
+                        <a href="portfolio.html" class="act-link">Portfolio</a>
+                        <ul class="submenu1">
+                            <li class="menu2">
+                                <a href="#">Horizontal</a>
+                                <ul class="submenu2">
+                                    <li><a href="portfolio.html">2 columns</a></li>
+                                    <li><a href="portfolio2.html">3 columns</a></li>
+                                    <li><a href="portfolio3.html">1 column</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu2">
+                                <a href="#">Vertical</a>
+                                <ul class="submenu2">
+                                    <li><a href="portfolio.html">3 columns</a></li>
+                                    <li><a href="portfolio.html">4 columns</a></li>
+                                    <li><a href="portfolio.html">5 columns</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="portfolio.html">Parallax</a></li>
+                            <li class="menu2">
+                                <a href="portfolio.html">Single</a>
+                                <ul class="submenu2">
+                                    <li><a href="portfolio.html">Boxed Gallery</a></li>
+                                    <li><a href="portfolio.html">Horizontal</a></li>
+                                    <li><a href="portfolio.html">Horizontal 3d</a></li>
+                                    <li><a href="portfolio.html">Horizontal style2</a></li>
+                                    <li><a href="portfolio.html">Boxed Slider</a></li>
+                                    <li><a href="portfolio.html">Boxed video</a></li>
+                                    <li><a href="portfolio.html">Fullsreen slider</a></li>
+                                    <li><a href="portfolio.html">Fullsreen video</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About us </a></li>
+                    <li><a href="services.html">Services </a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                    <li><a href="blog.html">Blog </a></li>
+                    <li class="menu1"> 
+                        <a href="#">Pages</a>
+                        <ul class="submenu1">
+                            <li><a href="about.html">Team single</a></li>
+                            <li><a href="about.html">Team</a></li>
+                            <li><a href="blog.html">Blog parallax</a></li>
+                            <li><a href="blog.html">Blog single</a></li>
+                            <li><a href="#">404</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="share">
+                <span>Share</span>
+                <i class="fa fa-chain-broken"></i>
+            </div>
+            <div class="share-list-container">
+                <ul class="share-list">
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">GooglePlus</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+	<main>
+		<div class="main-container">
+			<div class="filter-holder round-filter">
+	            <div class="gallery-filters hid-filter">
+	                <a href="#" class="gallery-filter transition2 gallery-filter_active" data-filter="*">All</a>
+	                <a href="#" class="gallery-filter transition2" data-filter=".interior">Interior</a>
+	                <a href="#" class="gallery-filter transition2" data-filter=".construction">Construction</a>
+	                <a href="#" class="gallery-filter transition2" data-filter=".design">Design</a>
+	                <a href="#" class="gallery-filter transition2" data-filter=".houses">Houses</a>
+	            </div>
+	            <div class="clearfix"></div>
+	            <div class="filter-button">Filter</div>
+	            <div class="count-folio round-counter">
+	                <div class="num-album"></div>
+	                <div class="all-album"></div>
+	            </div>
+	        </div>
+			<div class="gallery-container">
+				<div class="p-horizontal-wrap">
+					<div  id="p-horizontal" class="three-hor-rows">
+						<div class="portfolio-item pi1 interior design">
+							<img src="images/portfolio-img4.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi2 houses design">
+							<img src="images/portfolio-img2.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi3 houses construction">
+							<img src="images/portfolio-img3.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi4 construction">
+							<img src="images/portfolio-img1.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi5 construction design">
+							<img src="images/portfolio-img5.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi6 houses interior">
+							<img src="images/portfolio-img6.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi19 construction">
+							<img src="images/portfolio-img18.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi7 interior design">
+							<img src="images/main-img.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi8 houses design">
+							<img src="images/portfolio-img7.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi9 houses design">
+							<img src="images/portfolio-img8.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi10 interior">
+							<img src="images/portfolio-img9.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi11 construction">
+							<img src="images/portfolio-img10.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi12 interior construction">
+							<img src="images/portfolio-img11.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi13 design construction">
+							<img src="images/portfolio-img12.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi14 interior">
+							<img src="images/portfolio-img13.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi15 interior construction">
+							<img src="images/portfolio-img14.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi16 interior design houses">
+							<img src="images/portfolio-img15.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi17 construction design">
+							<img src="images/portfolio-img16.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi18 interior construction houses">
+							<img src="images/portfolio-img17.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-item pi19 construction">
+							<img src="images/portfolio-img18.jpg">
+							<div class="text-container">
+								<div class="text">
+									<div class="grid-item">
+										<h3><a href="portfolio-single.html">Quisque non augue</a></h3>
+										<span>Photography /   Web design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="fixed-footer">
+		<div class="footer-title">
+            <h2><a href="portfolio2.html">portfolio horizontal</a></h2>
+        </div>
+		<div class="footer-social">
+			<ul>
+	            <li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+	            <li><a href="#" target="_blank" ><i class="fa fa-twitter"></i></a></li>
+	            <li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+	            <li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i></a></li>
+	            <li><a href="#" target="_blank" ><i class="fa fa-tumblr"></i></a></li>
+            </ul>
+		</div>
+	</footer>
+	<script type="text/javascript" src="shared.js"></script>
+	
+</body>
+</html>

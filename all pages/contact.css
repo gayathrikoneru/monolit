@@ -1,0 +1,150 @@
+.contact-details {
+	margin: 60px 0;
+	display: flex;
+}
+
+.contact-details div {
+	padding-right: 40px;
+}
+
+.contact-details h3 {
+	font-size: 26px;
+	font-weight: 700px;
+}
+
+.contact-details h4 {
+	margin-bottom:10px;
+	font-size:14px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+
+.contact-details ul  {
+	padding-bottom:20px;
+}
+
+.contact-details ul li {
+	padding: 0 0 5px 0;
+}
+
+.contact-details ul li a {
+	padding:2px 0;
+	/*float:left;*/
+	font-size:13px;
+	width:100%;
+	color: black;
+	text-transform: none;
+	font-weight: 450;
+}
+
+.contact-details ul li a:hover {
+	text-decoration:underline;
+}
+
+#contactform {
+	display: flex;
+	flex-direction: column;
+	width: 63%;
+}
+
+#contact-form input, #contact-form textarea {
+	padding: 15px 10px;
+	margin-bottom: 20px;
+	border: 0;
+	border-bottom: 1px solid black;
+	color:#999;
+	position:relative;
+}
+
+#contact-form textarea {
+	height: 170px;
+	resize:none;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+	outline: 0;
+}
+
+#contact-form .verify-wrap {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+#contact-form .verify-wrap input {
+	width: 70px;
+}
+
+#submit {
+	width: 145px;
+	border:2px solid #000;
+	background: none;
+	margin-top: 30px;
+	padding:15px 30px 15px 30px;
+	line-height:17px;
+	cursor:pointer;
+	font-weight:800;
+	font-size:12px;
+	color:#000;
+	font-family: 'Muli', sans-serif;
+	transition: all 200ms linear;
+}
+
+#submit:hover {
+	 color:#ccc;
+}
+
+.map-box {
+	float:left;
+	width:95% ;
+	height:400px;
+	position:relative;
+	margin:40px 40px 40px 0;
+}
+
+#map-canvas{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100% ;
+	height:400px;
+}
+
+.error_message {
+	text-align:left;
+	font-size:12px;
+	max-width:450px;
+	position:relative;
+	padding:10px;
+	color:#933;
+	text-transform:uppercase;
+	display: none;
+}
+
+.contactform:invalid .error_message {
+	display: block;
+}
+
+@media (max-width: 992px) {
+	.container p {
+		width: 100%;
+	}
+
+	.contact-details {
+		flex-direction: column;
+	}
+
+	.contact-details h3 {
+		padding-bottom: 40px;
+	}
+
+	#contactform {
+		width: 100%;
+	}
+
+	textarea {
+		width: 90%;
+	}
+}
+

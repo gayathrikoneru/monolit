@@ -1,0 +1,158 @@
+#sec {
+	padding: 80px 0 80px 50px;
+}
+
+.container {
+	width: 100%;
+}
+
+.container p{
+	width: 65%;
+	/*transition: all 400ms linear;*/
+}
+
+.img-grid {
+	position: relative;
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: repeat(2,45%);
+	grid-template-rows: repeat(2,45%);
+	grid-gap: 20px;
+}
+
+.img-grid:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	/*right: 20%;*/
+	bottom: -20px;
+	width: 95%;
+	height: 1px;
+	background: rgba(0,0,0,0.11);
+}
+
+.serv-item-inner {
+	overflow: hidden;
+}
+
+.serv-item {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.serv-item img {
+	height: auto;
+	width: 100%;
+	transition: all 400ms linear;
+}
+
+.ser-title {
+	position:absolute;
+	bottom:20px;
+	z-index:3;
+	width:100%;
+	left:0;
+	text-align: center;
+}
+
+.ser-title h3 {
+	font-size:18px;
+	font-weight:400;
+	text-transform:uppercase;
+	position:relative;
+	display:inline-table;
+}
+.ser-title h3:before {
+	content:'';
+	position:absolute;
+	width:100%;
+	height:2px;
+	background:#fff;
+	top:-6px;
+	left:0;
+	background:#fff;
+}
+
+.serv-item:hover img {
+	transform: scale(1.05);
+}
+
+.serv-post {
+	position: relative;
+	margin-top: 30px;
+}
+
+.serv-details {
+	float:left;
+	width:100%;
+	position:relative;
+	display:none;
+	text-align:left;
+	padding-top: 40px;
+	/*margin-top: -30px;*/
+}
+
+.serv-details h3 {
+	font-size:15px;
+	text-transform:uppercase;
+	font-family: 'Muli', sans-serif;
+	font-weight:600;
+	padding-bottom:10px;
+}
+.ser-list {
+	list-style: circle;
+	float:left;
+	width:100%;
+	padding:10px 0 10px 14px;
+}
+
+/*ul li {
+	padding: 0;
+}*/
+
+.ser-list li {
+	margin-bottom:4px;
+	font-family: 'Muli', sans-serif;
+	padding:0 0 0 10px;
+ 	font-weight:600;
+	font-size:11px;
+	letter-spacing:1px;
+}
+
+.price {
+	float:left;
+	margin-top:10px;
+	padding:10px 14px;
+	border:2px solid #000;
+	font-weight:800;
+	text-transform:uppercase;
+	font-size:11px;
+	letter-spacing:2px;
+	background:#f9f9f9;
+}
+
+@media (max-width: 1036px) {
+	#sec {
+		padding-top: 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.container p {
+		width: 100%;
+	}
+
+	#sec {
+		padding-left: 40px;
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 640px) {
+	.img-grid {
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(4,20%);
+	}
+}
